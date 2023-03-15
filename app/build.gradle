@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'ru.geekbrain.android.gitapp'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "ru.geekbrain.android.gitapp"
         minSdk 23
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
