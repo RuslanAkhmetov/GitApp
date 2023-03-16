@@ -1,6 +1,5 @@
-package ru.geekbrain.android.gitapp.repo
+package ru.geekbrain.android.gitapp.domain
 
-import ru.geekbrain.android.gitapp.remote.UserEntity
 
 interface UsersRepo {
     //CRUD

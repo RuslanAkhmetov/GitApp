@@ -1,9 +1,9 @@
-package ru.geekbrain.android.gitapp.ui
+package ru.geekbrain.android.gitapp.ui.users
 
 import android.annotation.SuppressLint
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import ru.geekbrain.android.gitapp.remote.UserEntity
+import ru.geekbrain.android.gitapp.domain.UserEntity
 
 class UsersAdapter : RecyclerView.Adapter<UserViewHolder>() {
 

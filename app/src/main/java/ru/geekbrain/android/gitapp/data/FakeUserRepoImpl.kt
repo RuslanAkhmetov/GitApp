@@ -1,8 +1,9 @@
-package ru.geekbrain.android.gitapp.repo
+package ru.geekbrain.android.gitapp.data
 
 import android.os.Handler
 import android.os.Looper
-import ru.geekbrain.android.gitapp.remote.UserEntity
+import ru.geekbrain.android.gitapp.domain.UserEntity
+import ru.geekbrain.android.gitapp.domain.UsersRepo
 
 private const val DATA_LOADING_FAKE_DELLAY = 1000L
 

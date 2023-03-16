@@ -1,4 +1,4 @@
-package ru.geekbrain.android.gitapp.remote
+package ru.geekbrain.android.gitapp.domain
 
 data class UserEntity(
     val login : String,
