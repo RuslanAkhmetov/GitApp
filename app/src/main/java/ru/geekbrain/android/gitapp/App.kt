@@ -3,11 +3,11 @@ package ru.geekbrain.android.gitapp
 import android.app.Application
 import android.content.Context
 import androidx.fragment.app.Fragment
-import ru.geekbrain.android.gitapp.data.FakeUserRepoImpl
-import ru.geekbrain.android.gitapp.domain.UsersRepo
+import ru.geekbrain.android.gitapp.data.RetrofitUserRepoImpl
+import ru.geekbrain.android.gitapp.domain.repos.UsersRepo
 
 class App: Application() {
-    val UsersRepo: UsersRepo by lazy { FakeUserRepoImpl() }
+    val UsersRepo: UsersRepo by lazy {RetrofitUserRepoImpl()} // { FakeUserRepoImpl() }
 }
 
 val Context.app: App get() = applicationContext as App
